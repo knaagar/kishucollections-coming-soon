@@ -153,7 +153,7 @@ export default function Home() {
         </form>
 
         {message && (
-          <div className={`message ${message.type}`}>{message.text}</div>
+          <p className={`message ${message.type}`}>{message.text}</p>
         )}
         </RevealWrapper>
       </div>
