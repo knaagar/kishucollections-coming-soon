@@ -1,5 +1,8 @@
-export const metadata = {
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
   title: "Kishu | Coming Soon",
+  description: "Kishu Collections is coming soon.",
 };
 
 export default function RootLayout({
@@ -14,10 +17,12 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Lato&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
       </head>
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

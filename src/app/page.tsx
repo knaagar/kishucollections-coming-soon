@@ -120,7 +120,7 @@ export default function Home() {
 
         <p className="paragraph">
           Welcome to Kishu Collections, your destination for elegant traditional
-          desi women's wear! Our collection is <strong>launching soon</strong>{" "}
+          desi women&apos;s wear! Our collection is <strong>launching soon</strong>{" "}
           on both web and app platforms.
           <br />
           Sign up for updates - no spam, we promise!
