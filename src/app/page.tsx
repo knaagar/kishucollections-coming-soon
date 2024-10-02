@@ -47,23 +47,23 @@ export default function Home() {
   return (
     <div className="container">
         <nav className="nav">
-          <RevealWrapper delay={4000}>
+          <RevealWrapper delay={2300}>
           <div className="logo">
             <img src="/logo.png" alt="Kishu Logo" width={100} />
           </div>
           </RevealWrapper>
-          <RevealWrapper delay={4000}>
+          <RevealWrapper delay={2300}>
           <div className="social-links">
-            <a href="#">
-              <i className="fab fa-facebook" />
+            <a href="mailto:kishucollections@gmail.com">
+              <i className="fa fa-envelope" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/kishucollections/">
               <i className="fab fa-instagram" />
             </a>
-            <a href="#">
+            <a href="https://x.com/kishustore">
               <i className="fab fa-twitter" />
             </a>
-            <a href="#">
+            <a href="https://in.pinterest.com/kishucollections/">
               <i className="fab fa-pinterest" />
             </a>
           </div>
@@ -85,38 +85,11 @@ export default function Home() {
     <span className="element">o</span>
     <span className="element">o</span>
     <span className="element">n</span>
-    <span className="element accent-dark">,</span>
-  </RevealList>
-  <RevealList interval={100} delay={1400}>
-    <span className="element">E</span>
-    <span className="element">l</span>
-    <span className="element">e</span>
-    <span className="element">g</span>
-    <span className="element">a</span>
-    <span className="element">n</span>
-    <span className="element">c</span>
-    <span className="element">e</span>
-    <span className="element">&nbsp;</span>
-    <span className="element">i</span>
-    <span className="element">n</span>
-    <span className="element">&nbsp;</span>
-    <span className="element">E</span>
-    <span className="element">v</span>
-    <span className="element">e</span>
-    <span className="element">r</span>
-    <span className="element">y</span>
-    <span className="element">&nbsp;</span>
-    <span className="element">T</span>
-    <span className="element">h</span>
-    <span className="element">r</span>
-    <span className="element">e</span>
-    <span className="element">a</span>
-    <span className="element">d</span>
-    <span className="dot">.</span>
+    <span className="element accent-dark">.</span>
   </RevealList>
 </h1>
 
-<RevealWrapper delay={4000}>
+<RevealWrapper delay={2300}>
 
         <p className="paragraph">
           Welcome to Kishu Collections, your destination for elegant traditional
@@ -135,7 +108,7 @@ export default function Home() {
            and start shopping today!
         </p>
 </RevealWrapper>
-<RevealWrapper delay={5000}>
+<RevealWrapper delay={3000}>
 
         <form className="email-form" id="emailForm" onSubmit={handleSubmit}>
           <input
